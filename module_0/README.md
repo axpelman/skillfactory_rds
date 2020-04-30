@@ -1,7 +1,7 @@
 #  Игра угадай число
 ----
 ### Задача:
-Угадать загаданное компьютером число за минимальное число попыток 
+Угадать загаданное компьютером число за минимальное число попыток. 
 
 * * * * * * * * *
 ### Условие
@@ -26,7 +26,7 @@
 # Game guess the number
 ----
 ### Task:
-Guess the guessed computer number in the minimum number of attempts 
+Guess the guessed computer number in the minimum number of attempts. 
 
 * * * * * * * * *
 ### Condition
@@ -34,8 +34,8 @@ The computer makes an integer from 1 to 100, and it must be guessed for a minimu
 * * * * * * * * *
 ### Decision
 The solution to the problem is based on the use of the binary search algorithm.
-[**binary search**](https://en.wikipedia.org/wiki/Binary_search_algorithm) also known as half-interval search, logarithmic search, or binary chop, is a search algorithm that finds the position of a target value within a sorted array.
-Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
+[**Binary search**](https://en.wikipedia.org/wiki/Binary_search_algorithm) also known as half-interval search, logarithmic search, or binary chop, is a search algorithm that finds the position of a target value within a sorted array.
+Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration.
 
 ![binary search](common/Binary_search_algorithm.jpg "binary search" )
 
