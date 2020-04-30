@@ -15,7 +15,7 @@
 3. Поиск сводится к тому, что вновь определяется значение серединного элемента в выбранной половине и сравнивается с ключом.
 4. Процесс продолжается до тех пор, пока не будет найден элемент со значением ключа или не станет пустым интервал для поиска.
 
-![двоичный бинарный поиск](/common/algorithm_double_search.png "двоичный бинарный поиск" )
+![double search](common/algorithm_double_search.png "двоичный бинарный поиск" )
 
 * * * * * * * * 
 
@@ -37,6 +37,6 @@ The solution to the problem is based on the use of the binary search algorithm.
 [**binary search**](https://en.wikipedia.org/wiki/Binary_search_algorithm) also known as half-interval search, logarithmic search, or binary chop, is a search algorithm that finds the position of a target value within a sorted array.
 Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
 
-![binary search](/common/Binary_search_algorithm.jpg "binary search" )
+![binary search](common/Binary_search_algorithm.jpg "binary search" )
 
 * * * * * * * * 
